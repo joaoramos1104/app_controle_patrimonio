@@ -63,7 +63,7 @@
                     });
                 </script>
             </h1>
-            <h4>Matenha um controle dos bens patrimoniais de sua Empresa ou Clientes.</h4>
+            <h4>Mantenha um controle dos bens patrimoniais de sua Empresa ou Clientes.</h4>
         </div>
     </div>
     <x-footer />
