@@ -5,8 +5,8 @@
 <section>
     <div class="container-fluid">
         <div class="row p-3">
-            <div class="item-scale">
-                <h5 class="text-center">Itens Inativos</h5>
+            <div class="item-scale bg-white p-3">
+                <h5 class="text-center bg-danger p-2 text-white rounded shadow">Itens Inativos</h5>
                 <table id="itens_inativos" class="p-1 table table-responsive table-hover small" style="width:100%">
                 <thead>
                     <tr class="bg-danger text-white">

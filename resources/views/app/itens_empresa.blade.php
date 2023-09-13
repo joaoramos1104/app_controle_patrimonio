@@ -6,7 +6,7 @@
     <div class="container-fluid">
         <div class="row p-3">
             <div class="p-3 bg-white rounded-custom">
-                <h5 class="text-center">Relação de Itens:
+                <h5 class="text-center bg-success p-2 text-white rounded shadow">Relação de Itens:
                     @if (isset($itens_empresa[0]->empresa->razao_social))
                     {{ $itens_empresa[0]->empresa->razao_social }}
                     @endif

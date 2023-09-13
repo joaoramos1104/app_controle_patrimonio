@@ -5,7 +5,7 @@
 <section id="load-section">
     <div class="container-fluid p-1">
         <div class="row p-3 detalhe-item-scale">
-            <h5 class="text-center">Informações do Item</h5>
+            <h5 class="text-center bg-success p-2 text-white rounded shadow">Informações do Item</h5>
             <div class=" col-md-7 col-sm-12 p-2 mb-3">
                 <div class="row">
                     <div class="col-3 m-auto">

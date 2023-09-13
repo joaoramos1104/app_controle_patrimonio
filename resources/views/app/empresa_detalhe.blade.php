@@ -5,7 +5,7 @@
     <div class="container-fluid p-3 div-scale">
         <div class="row p-2 small">
             <div class="card border-0">
-                <div class="card-header text-center border-0 bg-transparent">
+                <div class="card-header text-center border-0 bg-success p-2 text-white rounded shadow">
                     <h5>Detalhes da Empresa</h5>
                 </div>
                 @if(Session::get('error'))

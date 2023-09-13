@@ -6,7 +6,7 @@
     <div class="container-fluid categoria-scale" style="width: 100% ;">
         <div class="row">
             <div class="col p-3">
-            <h5 class="text-center p-3 m-auto">Categorias</h5>
+            <h5 class="text-center p-3 m-auto bg-success text-white rounded shadow">Categorias</h5>
             @if (Auth::user()->tech OR Auth::user()->admin )
             <button class="btn btn-sm btn-outline-success border-0 float-end" data-bs-toggle="modal" data-bs-target="#new-categoria">Nova Categoria <i class="bi bi-plus"></i></button>
             @endif

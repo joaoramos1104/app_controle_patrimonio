@@ -5,8 +5,8 @@
     <section id="load-section">
         <div class="container-fluid" style="width: 90%;">
             <div id="load-empresas" class="row div-scale">
-                <div class="p-3 m-auto bg-white rounded-custom">
-                    <h5 class="text-center">Empresas / Clientes</h5>
+                <div class="p-3 m-auto">
+                    <h5 class="text-center bg-success p-2 text-white rounded shadow">Empresas / Clientes</h5>
                     @if (Auth::user()->tech OR Auth::user()->admin )
                     <button class="btn btn-sm btn-outline-success border-0 float-end mb-3" data-bs-toggle="modal" data-bs-target="#new-cliente">Nova Empresa <i class="bi bi-plus"></i></button>
                     @endif

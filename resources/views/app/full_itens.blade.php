@@ -6,7 +6,7 @@
     <div class="container-fluid">
         <div class="row p-3 item-scale">
             <div class="p-3 bg-white rounded-custom">
-                <h5 class="text-center">Relação de Todos os Itens</h5>
+                <h5 class="text-center bg-success p-2 text-white rounded shadow">Todos os Itens</h5>
                 <table id="full_itens" class="p-1 table table-responsive table-hover small" style="width:100%">
                 <thead>
                     <tr class="bg-secondary text-white">

@@ -6,7 +6,7 @@
     <div class="container-fluid div-scale" style="width: 100%;">
         <form class="row p-3 m-auto rounded small" id="form_new_item" action="new_item" method="post" enctype="multipart/form-data">
             @csrf
-            <h5 class="text-center p-2">Cadastro de Itens de Patrimônio</h5>
+            <h5 class="text-center bg-success p-2 text-white rounded shadow">Cadastro de Itens de Patrimônio</h5>
             @error('item_qtd')
             <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
             @enderror

@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row p-3 item-scale">
             <div class="col-12">
-                <h5 class="text-center">Itens</h5>
+                <h5 class="text-center bg-success p-2 text-white rounded shadow">Itens</h5>
             </div>
             <div class="col-12">
                 <a href="{{ route('full_itens') }}" class="btn btn-sm btn-outline-success border-0 float-start mb-3">Todos os Itens <i class="bi bi-card-checklist"></i></i></a>
