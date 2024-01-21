@@ -6,9 +6,9 @@
 
 body {
     font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "bootstrap-icons";
-    background: #fff;
+    background: #ffff !important;
     color: #fff;
-    /* background-image: linear-gradient(to right, rgb(232, 244, 253) , #e2eaf7); */
+    /* background-image: linear-gradient(to right, rgb(218, 238, 253) , #dee2e6)!important; */
 }
 
 .rounded-custom{
@@ -22,6 +22,10 @@ body {
 .nav-logo{
     width: auto;
     height: 40px;
+}
+
+.navbar-dark{
+    background-color: #212529 !important;
 }
 
 .vh-70{
@@ -398,7 +402,7 @@ tbody tr td{
 
     .div-scale, .item-scale, .categoria-scale, .scale-user{
         transform: scale(0.80) !important;
-        margin-top: 3rem !important;
+        margin-top: 4rem !important;
         transform-origin: 50% 0;
         -webkit-transform-origin: 50% 0;
         -moz-transform-origin: 50% 0;
